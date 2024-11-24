@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "KasaTestConsole": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
