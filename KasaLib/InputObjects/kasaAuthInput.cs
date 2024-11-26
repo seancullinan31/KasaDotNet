@@ -2,14 +2,12 @@
 
 namespace KasaLib.InputObjects
 {
-    public class authInput
+    public class kasaAuthInput : kasaInputBase
     {
-        public string method { get; set; }
         [JsonPropertyName("params")]
-        public authInputParameters parameters { get; set; }
-
+        public kasaAuthInputParameters parameters { get; set; }
     }
-    public class authInputParameters
+    public class kasaAuthInputParameters
     {
         public string appType { get; set; }
         public string cloudUserName { get; set; }

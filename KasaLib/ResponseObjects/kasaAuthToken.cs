@@ -8,13 +8,13 @@ namespace KasaLib.ResponseObjects
 {
 
 
-    public class authToken
+    public class kasaAuthToken
     {
         public int error_code { get; set; }
-        public authTokenResult result { get; set; }
+        public kasaAuthTokenResult result { get; set; }
     }
 
-    public class authTokenResult
+    public class kasaAuthTokenResult
     {
         public string accountId { get; set; }
         public string regTime { get; set; }
