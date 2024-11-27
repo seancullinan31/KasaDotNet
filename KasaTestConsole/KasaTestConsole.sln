@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KasaTestConsole", "KasaTest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KasaLib", "..\KasaLib\KasaLib.csproj", "{CEBF8ED2-F0FE-485D-8808-94A07D3897B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KasaAuthLamda", "..\KasaLamda\KasaAuthLamda.csproj", "{5232C56B-A3C6-43EB-AA88-C7EFDDFE310F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CEBF8ED2-F0FE-485D-8808-94A07D3897B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEBF8ED2-F0FE-485D-8808-94A07D3897B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEBF8ED2-F0FE-485D-8808-94A07D3897B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5232C56B-A3C6-43EB-AA88-C7EFDDFE310F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5232C56B-A3C6-43EB-AA88-C7EFDDFE310F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5232C56B-A3C6-43EB-AA88-C7EFDDFE310F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5232C56B-A3C6-43EB-AA88-C7EFDDFE310F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
