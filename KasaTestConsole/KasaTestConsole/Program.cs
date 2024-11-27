@@ -13,8 +13,10 @@ if (authToken.error_code ==0 )
     var deviceList = await kasaDevices.Instance().getDeviceList(authToken);
     foreach ( var device in deviceList.result.deviceList )
     {
-        Console.WriteLine(device.alias);
+        Console.WriteLine(device.alias + "- Device Id: " + device.deviceId);
     }
+    var energyMonitor = await kasaGetState.Instance().getDeviceState(authToken, "80064AB5C09A1099DCA327E53340E35C218CCC01");
+    Console.WriteLine(energyMonitor);
 } else
 {
     Console.WriteLine("Error logging in: " + authToken.error_code);
